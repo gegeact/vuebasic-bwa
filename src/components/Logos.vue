@@ -1,21 +1,16 @@
 <template>
   <div class="logos-wrapper">
-        <h2>Find Best Logo</h2>  
+        <h2 class="title-header">Find Best Logo</h2>  
           <div class="item-logos">
-            <img src="" alt="">
+            <img class="logo" alt="Vue logo" src="../assets/starbak.png">
           </div>
           <div class="item-logos">
-            <img src="" alt="">
+            <img class="logo" alt="Vue logo" src="../assets/gugel.png">
           </div>
           <div class="item-logos">
-            <img src="" alt="">
+            <img class="logo" alt="Vue logo" src="../assets/tut.png">
           </div>
-          <div class="item-logos">
-            <img src="" alt="">
-          </div>
-          <div class="item-logos">
-            <img src="" alt="">
-          </div>
+          
   </div>
 </template>
 
@@ -26,6 +21,11 @@ export default {
 </script>
 
 <style scoped>
+
+.title-header {
+  margin-bottom:80px ;
+}
+
 .logos-wrapper {
   width: 70%;
   margin: auto;
@@ -38,7 +38,11 @@ export default {
   margin-top: 20px;
   width: 150px;
   height: 150px;
-  background: black;
+}
+
+.item-logos .logo {
+  width: 150px;
+  height: 150px;
 }
 
 </style>
