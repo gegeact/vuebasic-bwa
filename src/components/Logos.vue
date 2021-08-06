@@ -9,8 +9,20 @@
           </div>
           <div class="item-logos">
             <img class="logo" alt="Vue logo" src="../assets/tut.png">
+          </div><div class="item-logos">
+            <img class="logo" alt="Vue logo" src="../assets/starbak.png">
           </div>
-          
+          <div class="item-logos">
+            <img class="logo" alt="Vue logo" src="../assets/gugel.png">
+          </div>
+          <div class="item-logos">
+            <img class="logo" alt="Vue logo" src="../assets/tut.png">
+          </div><div class="item-logos">
+            <img class="logo" alt="Vue logo" src="../assets/starbak.png">
+          </div>
+          <div class="item-logos">
+            <img class="logo" alt="Vue logo" src="../assets/gugel.png">
+          </div>
   </div>
 </template>
 
@@ -23,19 +35,21 @@ export default {
 <style scoped>
 
 .title-header {
-  margin-bottom:80px ;
+  margin-bottom:50px ;
+  text-align: center;
 }
 
 .logos-wrapper {
-  width: 70%;
+  width: 58%;
   margin: auto;
   overflow: hidden;
 }
 
 .item-logos {
   float: left;
-  margin-right: 20px;
-  margin-top: 20px;
+  margin: 70px 35px 0px 35px;
+  /* margin-right: 70px; */
+  /* margin-top: 70px; */
   width: 150px;
   height: 150px;
 }
